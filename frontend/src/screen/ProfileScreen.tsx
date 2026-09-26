@@ -7,7 +7,7 @@ export default function ProfileScreen() {
     <SafeAreaView>
 
         <ScrollView>
-              <Text>FormularioEntregaScreen</Text>
+              <Text>ProfileScreen</Text>
         </ScrollView>
 
     </SafeAreaView>

@@ -11,3 +11,13 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model Entrega {
+ id Int @id @default(autoincrement())
+ guia String @unique
+ destinatario String
+ montoCobro Float
+ fotoBase64 String?
+ fecha DateTime @default(now())
+}
+
